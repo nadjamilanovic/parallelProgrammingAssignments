@@ -1,0 +1,44 @@
+student@itcenter-lab128:~/Desktop/assignment7-Nadja$ /usr/bin/time -f "%e" ./stencil_opt2
+Running with 4 thread(s)
+Iter 0
+Iter 1000
+Iter 2000
+Iter 3000
+Iter 4000
+Iter 5000
+Iter 6000
+Iter 7000
+Iter 8000
+Iter 9000
+Timing is init 0.037844 flush 72.735108 stencil 141.293208 total 214.077765
+214.09
+
+student@itcenter-lab128:~/Desktop/assignment7-Nadja$ /usr/bin/time -f "%e" ./stencil_opt4
+Running with 4 thread(s)
+Iter 0
+Iter 1000
+Iter 2000
+Iter 3000
+Iter 4000
+Iter 5000
+Iter 6000
+Iter 7000
+Iter 8000
+Iter 9000
+Timing is init 0.033404 flush 70.549710 stencil 139.904615 total 210.529077
+210.55
+
+student@itcenter-lab128:~/Desktop/assignment7-Nadja$ /usr/bin/time -f "%e" ./stencil_opt6
+Running with 4 thread(s)
+Iter 0
+Iter 1000
+Iter 2000
+Iter 3000
+Iter 4000
+Iter 5000
+Iter 6000
+Iter 7000
+Iter 8000
+Iter 9000
+Timing is init 0.036613 flush 70.822190 stencil 143.682988 total 216.174585
+216.19
