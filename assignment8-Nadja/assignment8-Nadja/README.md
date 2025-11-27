@@ -14,11 +14,10 @@ I measured time for scatter and reduce operations using a simple timer.
 -Results:
 
 2 processes:
-![2 processes output](np2.png)
+
 4 processes:
-![4 processes output](np4.png)
+
 8 processes:
-![8 processes output](np8.png)
 
 -Notes:
 I used --oversubscribe because the computer has fewer CPU cores than the number of processes.
